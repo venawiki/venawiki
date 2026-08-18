@@ -1,0 +1,106 @@
+:root {
+  --md-primary-fg-color: #00a495;
+  --md-primary-fg-color--light: #24b9ab;
+  --md-primary-fg-color--dark: #00877b;
+  --md-accent-fg-color: #00a495;
+  --wiki-border: #d5d9dc;
+  --wiki-soft-bg: #f4f6f7;
+}
+
+body {
+  font-family: Pretendard, "Noto Sans KR", "Malgun Gothic", Arial, sans-serif;
+}
+
+.md-header {
+  border-bottom: 3px solid #00877b;
+}
+
+.md-main__inner {
+  max-width: 1440px;
+}
+
+.md-content__inner {
+  border: 1px solid #e2e5e8;
+  border-radius: 3px;
+  padding: 1.2rem 1.5rem 2rem;
+  background: #fff;
+}
+
+.md-typeset h1 {
+  border-bottom: 2px solid #00a495;
+  padding-bottom: 0.45rem;
+  font-weight: 700;
+}
+
+.md-typeset h2 {
+  border-bottom: 1px solid #d8dcdf;
+  padding-bottom: 0.3rem;
+}
+
+.wiki-infobox {
+  float: right;
+  width: min(360px, 42%);
+  margin: 0 0 1.2rem 1.5rem;
+  border: 2px solid #00a495;
+  background: #fff;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+}
+
+.wiki-infobox .infobox-title {
+  padding: 0.8rem 0.7rem 0.25rem;
+  color: #fff;
+  background: #00a495;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.wiki-infobox .infobox-subtitle {
+  padding: 0 0.7rem 0.75rem;
+  color: #eafffc;
+  background: #00a495;
+  text-align: center;
+  font-size: 0.78rem;
+}
+
+.wiki-infobox table {
+  display: table;
+  width: 100%;
+  margin: 0;
+  border: 0;
+  font-size: 0.82rem;
+}
+
+.wiki-infobox table:not([class]) th,
+.wiki-infobox table:not([class]) td {
+  padding: 0.55rem 0.65rem;
+  border: 1px solid var(--wiki-border);
+}
+
+.wiki-infobox table:not([class]) th {
+  width: 31%;
+  background: var(--wiki-soft-bg);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.wiki-infobox .infobox-motto {
+  padding: 0.7rem;
+  border-top: 1px solid var(--wiki-border);
+  background: #f0fbf9;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 760px) {
+  .md-content__inner {
+    border: 0;
+    padding: 0.8rem 0.2rem 1.5rem;
+  }
+
+  .wiki-infobox {
+    float: none;
+    width: 100%;
+    margin: 0 0 1.2rem;
+  }
+}

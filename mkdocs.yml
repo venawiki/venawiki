@@ -1,0 +1,40 @@
+site_name: 나의 세계관 위키
+site_description: 가상 세계와 국가를 정리하는 개인 위키
+
+theme:
+  name: material
+  language: ko
+  font: false
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tooltips
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - 대문: index.md
+  - 위키 사용법: guide.md
+  - 국가:
+      - 헤르잔 공화국: nations/herzan.md
+      - 국가 문서 양식: templates/country-template.md
