@@ -147,7 +147,7 @@ body {
   background: repeating-linear-gradient(
     135deg,
     var(--nation-accent) 0 7px,
-    #ffffff 7px 12px
+    var(--nation-main) 7px 12px
   );
   content: "";
 }
