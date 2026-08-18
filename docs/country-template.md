@@ -1,4 +1,4 @@
-# 대원명국
+# 국가 문서 양식
 
 <div class="nation-card" style="--nation-main: #801029; --nation-accent: #CD9C48;">
 
