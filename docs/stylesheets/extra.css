@@ -471,6 +471,120 @@ body {
     height: 48px;
   }
 
+  /* 위키 전체 검은색 다크 테마 */
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0b0c0f;
+  --md-default-fg-color: #eeeeee;
+  --md-default-fg-color--light: #c4c7cc;
+  --md-default-fg-color--lighter: #8d929a;
+  --md-default-fg-color--lightest: #34373d;
+  --md-code-bg-color: #17191e;
+  --md-code-fg-color: #eeeeee;
+}
+
+[data-md-color-scheme="slate"] body {
+  background: #0b0c0f;
+}
+
+/* 본문 영역 */
+
+[data-md-color-scheme="slate"] .md-content__inner {
+  border-color: #343840;
+  background: #111318;
+  color: #eeeeee;
+}
+
+/* 상단은 기존 파란색 유지 */
+
+[data-md-color-scheme="slate"] .md-header {
+  background: var(--md-primary-fg-color);
+}
+
+/* 대문 지도 */
+
+[data-md-color-scheme="slate"] .home-world-map {
+  background: #111318;
+}
+
+/* 대문 2×2 메뉴 */
+
+[data-md-color-scheme="slate"] .home-menu-card {
+  border-color: #3a3e46;
+  border-left-color: var(--md-primary-fg-color);
+  background: #15171c;
+  color: #eeeeee !important;
+}
+
+[data-md-color-scheme="slate"] .home-menu-card:hover {
+  border-color: var(--md-primary-fg-color);
+  background: #1b1e24;
+}
+
+[data-md-color-scheme="slate"] .home-menu-logo {
+  border-right-color: #3a3e46;
+  background: #202329;
+}
+
+[data-md-color-scheme="slate"] .home-menu-logo span {
+  color: #9ca2ab;
+}
+
+/* 국가 정보상자 */
+
+[data-md-color-scheme="slate"] .nation-card {
+  border-color: var(--nation-main);
+  background: #121418;
+  color: #eeeeee;
+}
+
+[data-md-color-scheme="slate"] .nation-card-images,
+[data-md-color-scheme="slate"] .nation-image-cell {
+  border-color: #41444b;
+  background: #191b20;
+}
+
+[data-md-color-scheme="slate"] .nation-emblem-empty {
+  background: #191b20;
+}
+
+[data-md-color-scheme="slate"] .nation-motto {
+  border-color: #41444b;
+  background: #121418;
+}
+
+[data-md-color-scheme="slate"] .nation-motto strong {
+  color: #eeeeee;
+}
+
+[data-md-color-scheme="slate"] .nation-row {
+  border-color: #41444b;
+}
+
+[data-md-color-scheme="slate"] .nation-key {
+  border-color: #41444b;
+}
+
+[data-md-color-scheme="slate"] .nation-value {
+  background: #15171c;
+  color: #eeeeee;
+}
+
+[data-md-color-scheme="slate"] .nation-card details.nation-fold,
+[data-md-color-scheme="slate"] .nation-card details.nation-fold > summary {
+  background: #121418;
+}
+
+[data-md-color-scheme="slate"] .nation-fold-button {
+  border-color: #41444b;
+  background: #15171c;
+  color: #eeeeee;
+}
+
+[data-md-color-scheme="slate"] .nation-fold-button:hover {
+  background: #202329;
+  color: var(--nation-accent);
+}
   .home-menu-logo span {
     font-size: 0.5rem;
   }
