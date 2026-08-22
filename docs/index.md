@@ -1,21 +1,41 @@
-# 나의 세계관 위키
+# 대문
 
-이곳은 국가, 인물, 역사, 지리와 설정을 정리하는 개인 위키입니다.
+<div class="home-dashboard">
 
-!!! note "첫 문서"
-    왼쪽의 `국가` 메뉴를 열고 `헤르잔 공화국`을 눌러 국가 문서 예시를 확인하세요.
+  <div class="home-world-map">
+    <img src="/venawiki/world-map.png" alt="세계관 세계지도">
+  </div>
 
-## 주요 문서
+  <div class="home-menu-grid">
 
-| 분류 | 설명 |
-|---|---|
-| 국가 | 국호, 국기, 수도, 인구, 정치체제 |
-| 인물 | 지도자, 정치인, 역사적 인물 |
-| 역사 | 시대별 사건과 전쟁 |
-| 지리 | 대륙, 도시, 산맥과 해역 |
+    <a class="home-menu-card" href="#">
+      <div class="home-menu-logo">
+        <span>LOGO</span>
+      </div>
+      <div class="home-menu-title">태양계</div>
+    </a>
 
-## 최근 작업
+    <a class="home-menu-card" href="#">
+      <div class="home-menu-logo">
+        <span>LOGO</span>
+      </div>
+      <div class="home-menu-title">국가 목록</div>
+    </a>
 
-- 위키 개설
-- 국가 정보상자 제작
-- 첫 번째 국가 문서 작성
+    <a class="home-menu-card" href="#">
+      <div class="home-menu-logo">
+        <span>LOGO</span>
+      </div>
+      <div class="home-menu-title">우주기구 목록</div>
+    </a>
+
+    <a class="home-menu-card" href="#">
+      <div class="home-menu-logo">
+        <span>LOGO</span>
+      </div>
+      <div class="home-menu-title">국가원수 목록</div>
+    </a>
+
+  </div>
+
+</div>
