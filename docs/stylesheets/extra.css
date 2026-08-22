@@ -589,3 +589,79 @@ body {
     font-size: 0.5rem;
   }
 }
+
+/* 기존 흰색 요소 강제 다크 처리 */
+
+.md-content__inner {
+  border-color: #343840 !important;
+  background: #101216 !important;
+  color: #eeeeee !important;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  color: #eeeeee;
+}
+
+/* 대문 지도 영역 */
+
+.home-world-map {
+  border-color: #3d424b !important;
+  background: #0b0c0f !important;
+}
+
+/* 대문 2×2 메뉴 */
+
+.home-menu-card {
+  border-color: #3d424b !important;
+  border-left-color: var(--md-primary-fg-color) !important;
+  background: #17191e !important;
+  color: #eeeeee !important;
+}
+
+.home-menu-card:hover {
+  border-color: var(--md-primary-fg-color) !important;
+  background: #202329 !important;
+}
+
+.home-menu-logo {
+  border-right-color: #3d424b !important;
+  background: #22252b !important;
+}
+
+.home-menu-logo span {
+  color: #a9aeb6 !important;
+}
+
+.home-menu-title {
+  color: #eeeeee !important;
+}
+
+/* 국가 정보상자 흰색 부분 */
+
+.nation-card {
+  background: #121418 !important;
+  color: #eeeeee !important;
+}
+
+.nation-card-images,
+.nation-image-cell,
+.nation-emblem-empty {
+  border-color: #41444b !important;
+  background: #191b20 !important;
+}
+
+.nation-motto,
+.nation-value,
+.nation-card details.nation-fold,
+.nation-card details.nation-fold > summary,
+.nation-fold-button {
+  border-color: #41444b !important;
+  background: #15171c !important;
+  color: #eeeeee !important;
+}
+
+.nation-motto strong {
+  color: #eeeeee !important;
+}
