@@ -15,7 +15,7 @@
       <div class="home-menu-title">태양계</div>
     </a>
 
-    <a class="home-menu-card" href="#">
+    <a class="home-menu-card" href="/venawiki/countries/">
       <div class="home-menu-logo">
         <span>LOGO</span>
       </div>
