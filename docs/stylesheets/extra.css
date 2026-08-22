@@ -363,3 +363,115 @@ body {
     max-height: 100px;
   }
 }
+
+/* 대문 세계지도와 주요 문서 2×2 메뉴 */
+
+.home-dashboard {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.home-world-map {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 2px solid var(--md-primary-fg-color);
+  background: #f3f4f5;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 12%);
+}
+
+.home-world-map img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.home-menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  width: 100%;
+}
+
+.home-menu-card {
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr);
+  min-height: 105px;
+  overflow: hidden;
+  border: 1px solid #cfd4d8;
+  border-left: 5px solid var(--md-primary-fg-color);
+  border-radius: 2px;
+  background: #ffffff;
+  color: #202124 !important;
+  text-decoration: none !important;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 8%);
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    transform 0.15s ease;
+}
+
+.home-menu-card:hover {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 14%);
+  transform: translateY(-2px);
+}
+
+.home-menu-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #d8dcdf;
+  background: #f2f4f5;
+}
+
+.home-menu-logo span {
+  color: #8a949b;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.home-menu-logo img {
+  display: block;
+  width: 68px;
+  height: 68px;
+  margin: 0;
+  object-fit: contain;
+}
+
+.home-menu-title {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.2rem;
+  font-size: 1.08rem;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 600px) {
+  .home-menu-grid {
+    gap: 0.55rem;
+  }
+
+  .home-menu-card {
+    grid-template-columns: 64px minmax(0, 1fr);
+    min-height: 82px;
+    border-left-width: 3px;
+  }
+
+  .home-menu-title {
+    padding: 0.7rem;
+    font-size: 0.88rem;
+  }
+
+  .home-menu-logo img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .home-menu-logo span {
+    font-size: 0.5rem;
+  }
+}
